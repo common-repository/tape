@@ -1,0 +1,132 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+#tape_footer {
+    text-decoration: none;
+}
+
+.tapeValidationMsg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#tape-error-msg {
+  color: red;
+}
+#tape-valid-msg {
+  color: #00C900;
+}
+input.tapeInputError {
+  border: 1px solid #FF7C7C !important;
+}
+
+input.tapeSubmitError, input.tapeSubmitError:hover {
+    background-color: #f00 !important;
+}
+
+input.tapeSubmitSuccess, input.tapeSubmitSuccess:hover {
+    background-color: #0b0 !important;
+}
+
+.tapeError {
+    float: left;
+}
+
+.tapePoweredDiv {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.tapePoweredLink {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #555;
+    text-decoration: underline;
+}
+
+.tapeWidget {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 20px;
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #555;
+}
+
+.hide {
+  display: none;
+}
+
+.tapeWidget {
+    width: 250px;
+}
+
+.tapeInputWrapper {
+    margin-bottom: 2px;
+}
+
+.tapeLeft {
+    float: left;
+}
+
+.tapeRight {
+    float: right;
+}
+
+.intl-tel-input {
+    width: 100% !important;
+}
+
+.tapeWidget input, button {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 35px;
+    margin: 0;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-size: 100%;
+    color: inherit;
+    letter-spacing: normal;
+}
+
+.tapeWidget input[disabled], button[disabled] {
+    background-color: #eee; 
+}
+
+.tapeWidget input, select {
+  border: 1px solid #CCC;
+  width: 250px;
+}
+
+.tapeWidget ::-webkit-input-placeholder {
+  color: #BBB;
+}
+
+.tapeWidget ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #BBB;
+  opacity: 1;
+}
+
+.tapeWidget :-ms-input-placeholder {
+  color: #BBB;
+}
+
+.tapeWidget input.tapeButton {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #FFF !important;
+    background-color: #428BCA;
+    /* border: 1px solid #357EBD; */
+    display: inline;
+    max-width: 148px;
+    font-size: 100% !important;
+    padding: 0px !important;
+}
+
+.tapeWidget input.tapeButton:hover {
+    background-color: #3276B1;
+    /* border-color: #285E8E; */
+    cursor: pointer; 
+}
